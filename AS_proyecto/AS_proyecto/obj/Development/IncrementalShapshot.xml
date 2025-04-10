@@ -1,0 +1,215 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>AS_proyecto</Database>
+    <Server>LAPTOP-T6LS2AHR</Server>
+    <ConnectionString>Data Source=LAPTOP-T6LS2AHR;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>tIbaJxT81dXmj89J6F2NeNHqU5c=6/4/2025 13:12:056/4/2025 12:43:41</TimeStamp>
+        <ID>
+          <String>DW Prueba</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>x7KbAsZcoXunQYfYXIr4qMed0gM=6/4/2025 12:44:086/4/2025 12:44:07</TimeStamp>
+        <ID>
+          <String>vw_sueldos</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>NcA5aIM31kgtMx0PsHVKKgh/VS8=6/4/2025 14:37:446/4/2025 14:37:43</TimeStamp>
+        <ID>
+          <String>vw_inventario</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>g7z4pDoAm/UnG9rmQNp5rbc/Zhs=6/4/2025 15:10:516/4/2025 15:10:50</TimeStamp>
+        <ID>
+          <String>vw_orden</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>CTUu1LYgnL/HQGu0yvIW3EqomWA=6/4/2025 15:38:006/4/2025 15:38:00</TimeStamp>
+        <ID>
+          <String>vw_factura</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>XejT6jnwoiGTY0z/lwZQSBWp2qw=6/4/2025 12:45:026/4/2025 12:44:33</TimeStamp>
+        <ID>
+          <String>Dim Tiempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>v1trdhpkDGk1mDy6RhjEb2ZPxbM=6/4/2025 12:45:146/4/2025 12:44:33</TimeStamp>
+        <ID>
+          <String>Dim Empleado</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>gcox17S/RUcgxIuwQweC9xcCpR4=6/4/2025 14:38:236/4/2025 14:38:07</TimeStamp>
+        <ID>
+          <String>Dim Hotel</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>DMnnJtzvT4LFQ6Sq3uP0JpXQ2/s=6/4/2025 14:38:396/4/2025 14:38:07</TimeStamp>
+        <ID>
+          <String>Dim Producto</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OCiFj6d4hUETkjPppsZvRBPy8Zk=6/4/2025 14:38:506/4/2025 14:38:07</TimeStamp>
+        <ID>
+          <String>Dim Tiempo 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BbIZsbZyTaRSQThoXgRwHi3PSmE=6/4/2025 15:13:296/4/2025 15:13:13</TimeStamp>
+        <ID>
+          <String>Dim Cliente</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WBCGv3VYyAeUKjQUUT6kTXLFQls=6/4/2025 15:13:426/4/2025 15:13:13</TimeStamp>
+        <ID>
+          <String>Dim Mesa</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>e72VYWgwha1yqeCKihKTJKLPnZg=6/4/2025 15:15:156/4/2025 15:13:13</TimeStamp>
+        <ID>
+          <String>Dim Plato</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>luV+pEsC4VfxvEzIKr81zYKuw90=6/4/2025 15:15:306/4/2025 15:13:13</TimeStamp>
+        <ID>
+          <String>Dim Restaurante</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QrjizNCqKrMKCWEWH0vuTGiTGrw=6/4/2025 15:16:166/4/2025 15:13:13</TimeStamp>
+        <ID>
+          <String>Dim Tiempo 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QtLWk95W7YdqipIDw+Gk2AiXUrQ=6/4/2025 15:38:326/4/2025 15:38:20</TimeStamp>
+        <ID>
+          <String>Dim Cliente 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Y8qEMRG1BU8jPMhV22FOJEdZ43I=6/4/2025 15:38:426/4/2025 15:38:20</TimeStamp>
+        <ID>
+          <String>Dim Producto 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>/xzrxUGGdSOd8d371fbk3s5jg6c=6/4/2025 15:39:316/4/2025 15:38:20</TimeStamp>
+        <ID>
+          <String>Dim Tiempo 3</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2GvLSRSf2fgxmo+H0MRVLRt9pUo=6/4/2025 15:38:516/4/2025 15:38:20</TimeStamp>
+        <ID>
+          <String>Dim Hotel 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>kKyMAAcQctqHS2ILRXLagz1LD7k=6/4/2025 15:39:016/4/2025 15:38:20</TimeStamp>
+        <ID>
+          <String>Dim Servicio</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>DUgWIs72sqcPot8oTJcZjk+KySc=6/4/2025 15:39:126/4/2025 15:38:20</TimeStamp>
+        <ID>
+          <String>Dim Habitacion</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hiWVyr2jLYOCDcxKSrP4hKaJ8Zs=6/4/2025 15:39:206/4/2025 15:38:20</TimeStamp>
+        <ID>
+          <String>Dim Formapago</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>PzTFXSeNGHK70ZT+cA615gCHp8Q=6/4/2025 12:45:146/4/2025 12:44:33+xfmlj1VEzDE2n+/2LW2lOPQKRM=6/4/2025 12:44:336/4/2025 12:44:33</TimeStamp>
+        <ID>
+          <String>Cubo_RRHH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>0S+N6V582dDLROTNmOX70suRB94=6/4/2025 14:38:506/4/2025 14:38:07HuGmW+PwlMiut+pbmb707nugDGk=6/4/2025 14:38:076/4/2025 14:38:07</TimeStamp>
+        <ID>
+          <String>Cubo_Inventario</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>8O0n0QZ+BLvjizvQKJ4Url8T2Bo=6/4/2025 15:16:256/4/2025 15:13:13HFqxX3Y4TsSs5oUIbe6b1XdmiR8=6/4/2025 15:13:136/4/2025 15:13:13</TimeStamp>
+        <ID>
+          <String>Cubo_Orden</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>sb/qFtZ1GR/3vGA/UlUeJ+wjdSw=6/4/2025 15:39:316/4/2025 15:38:209EDQvkhmrBYACQ9QjUcuP2+GRno=6/4/2025 15:38:216/4/2025 15:38:20</TimeStamp>
+        <ID>
+          <String>Cubo_Factura</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>nDuna5tgJdtR9bso3NgvhbXr7Ys=2/4/2025 19:03:252/4/2025 19:03:24</TimeStamp>
+      <ID>
+        <String>AS_proyecto</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2025-04-08T17:23:44.393333Z</LastDeployed>
+</DeploymentSnapshot>
