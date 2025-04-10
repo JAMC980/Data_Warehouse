@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.DW_Prueba"
+  DTS:DTSID="{C1A214AB-F850-494B-BC91-F2A05C0A2A9E}"
+  DTS:CreationName="ADO">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=DW_Prueba;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-DW_prueba-{C1A214AB-F850-494B-BC91-F2A05C0A2A9E}localhost.DW_Prueba;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
